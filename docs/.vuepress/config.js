@@ -25,6 +25,13 @@ module.exports = {
           ['/技术/react-native/1.md', 'react-native'],
         ]
       },
+      {
+        title: '日记',
+        children: [
+          ['/日记/2019/06-03.md', '2019/06/03'],
+
+        ]
+      },
     ]
   }
 }
