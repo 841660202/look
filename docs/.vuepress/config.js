@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog-demo/',
+  base: '/look/',
   title: 'blog-demo',
   description: 'Vuepress blog demo',
   head: [
@@ -7,7 +7,7 @@ module.exports = {
   ],
   themeConfig: {
   	// 你的GitHub仓库
-    repo: 'https://github.com/olewaHHH/blog-demo',
+    repo: 'https://github.com/841660202/look',
     // 自定义仓库链接文字。
     repoLabel: 'My GitHub',
   	nav: [
