@@ -4,7 +4,7 @@ module.exports = {
   description: 'Vuepress blog demo',
   port:9099,
   head: [
-    ['link', { rel: 'icon', href: '/vue-logo.png' }]
+    ['link', { rel: 'icon', href: 'https://avatar.csdn.net/B/5/2/3_web_longboss.jpg' }]
   ],
   themeConfig: {
   	// 你的GitHub仓库
