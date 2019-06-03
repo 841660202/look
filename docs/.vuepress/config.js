@@ -2,6 +2,7 @@ module.exports = {
   base: '/look/',
   title: 'blog-demo',
   description: 'Vuepress blog demo',
+  port:9099,
   head: [
     ['link', { rel: 'icon', href: '/vue-logo.png' }]
   ],
@@ -21,7 +22,7 @@ module.exports = {
         title: '技术',
         children: [
           ['/技术/react/1.md', 'react'],
-          ['/技术/react-native/1.md', 'react'],
+          ['/技术/react-native/1.md', 'react-native'],
         ]
       },
     ]
