@@ -1,10 +1,10 @@
 module.exports = {
   base: '/look/',
-  title: 'blog-demo',
-  description: 'Vuepress blog demo',
+  title: 'blog',
+  description: 'Vuepress blog',
   port:9099,
   head: [
-    ['link', { rel: 'icon', href: 'https://avatar.csdn.net/B/5/2/3_web_longboss.jpg' }]
+    ['link', { rel: 'icon', href: '/favicon.jpg' }]
   ],
   themeConfig: {
   	// 你的GitHub仓库
@@ -17,7 +17,7 @@ module.exports = {
   	],
   	sidebar: [
       ['/', '首页'],
-      ['/blog/FirstBlog.md', '我的第一篇博客'],
+      ['/blog/FirstBlog.md', 'vuePress部署blog'],
       {
         title: '技术',
         children: [
