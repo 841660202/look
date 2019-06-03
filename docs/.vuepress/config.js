@@ -16,7 +16,14 @@ module.exports = {
   	],
   	sidebar: [
       ['/', '首页'],
-      ['/blog/FirstBlog.md', '我的第一篇博客']
+      ['/blog/FirstBlog.md', '我的第一篇博客'],
+      {
+        title: '技术',
+        children: [
+          ['/技术/react/1.md', 'react'],
+          ['/技术/react-native/1.md', 'react'],
+        ]
+      },
     ]
   }
 }
