@@ -1,7 +1,7 @@
 module.exports = {
   base: '/look/',
-  title: 'blog',
-  description: 'Vuepress blog',
+  title: ' 👣',
+  description: '越努力越幸运，考研失败了，请勿贪玩',
   port:9099,
   head: [
     ['link', { rel: 'icon', href: '/favicon.jpg' }]
@@ -10,28 +10,38 @@ module.exports = {
   	// 你的GitHub仓库
     repo: 'https://github.com/841660202/look',
     // 自定义仓库链接文字。
-    repoLabel: 'My GitHub',
+    repoLabel: 'GitHub',
   	nav: [
-  		{ text: 'Home', link: '/' },
-  		{ text: 'FirstBlog', link: '/blog/FirstBlog.md' }
+  		{ text: '首页', link: '/' },
+  		{ text: '博客', link: '/blog/' },
+  		{ text: '技术栈', link: '/stack/' },
   	],
-  	sidebar: [
-      ['/', '首页'],
-      ['/blog/FirstBlog.md', 'vuePress部署blog'],
-      {
-        title: '技术',
-        children: [
-          ['/技术/react/1.md', 'react'],
-          ['/技术/react-native/1.md', 'react-native'],
-        ]
-      },
-      {
-        title: '日记',
-        children: [
-          ['/日记/2019/06-03.md', '2019/06/03'],
-
-        ]
-      },
-    ]
+  	sidebar: {
+      '/blog/':[
+          {
+            title: '日记',
+            children: [
+              ['/blog/FirstBlog', 'FirstBlog'],
+            ]
+          },
+        ],
+      '/stack/':[
+        {
+          title: '技术栈',
+          children: [
+            ['/stack/react/1', 'react'],
+            ['/stack/react-native/1', 'react-native'],
+            ['/stack/dingE/record', 'dingE'],
+            ['/stack/flutter/app-update', 'flutter'],
+            ['/stack/typescript/json2Type', 'json2Type'],
+            ['/stack/req/fetch', 'fecth'],
+            ['/stack/req/axios', 'axios'],
+            ['/stack/req/umi-request', 'umi-request'],
+            ['/stack/linux/tree', 'tree'],
+          ]
+        },
+      ],
+    }
+     
   }
 }
