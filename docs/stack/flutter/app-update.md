@@ -143,3 +143,74 @@ visibility的控制还是比较麻烦的。这是Flutter设计上不符合正常
 <div align="center">
   <img src="../../.vuepress/public/intro-app.gif" height="330" >
 </div>
+## 签名
+
+```
+keytool -genkey -alias **** -keyalg RSA -validity 100000 -keystore ****.jks
+```
+
+## 推送
+华为push需要 SHA256证书指纹，需要用到
+
+```
+keytool -list  -v -keystore ****.jks -storepass 密码
+```
+
+## 配置签名
+1、local.properties 同级添加key.properties
+
+```
+storePassword=密码
+keyPassword=密码
+keyAlias=key
+storeFile=/Users/chenhailong/development/my_flutter/key.jks
+```
+
+2、open android/app/build.gradle
+
+```
+// 发布签名
+def keystorePropertiesFile = rootProject.file("key.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+defaultConfig {
+    // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+    applicationId "com.example.update_in_app"
+    minSdkVersion 16
+    targetSdkVersion 28
+    versionCode flutterVersionCode.toInteger()
+    versionName flutterVersionName
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+}
+// 新增签名配置
+signingConfigs {
+    release {
+        keyAlias keystoreProperties['keyAlias']
+        keyPassword keystoreProperties['keyPassword']
+        storeFile file(keystoreProperties['storeFile'])
+        storePassword keystoreProperties['storePassword']
+    }
+}
+// 修改签名配置
+buildTypes {
+    release {
+        // TODO: Add your own signing config for the release build.
+        // Signing with the debug keys for now, so `flutter run --release` works.
+        // signingConfig signingConfigs.debug
+        signingConfig signingConfigs.release
+    }
+}
+```
+
+## 打包
+flutter build
+
+## Dart DevTools
+[ Dart DevTools](https://flutter.github.io/devtools/vscode)
+<div align="center">
+  <img src="../../.vuepress/public/dart-devTools.png" height="430" >
+</div>
+
+## 对话框
+
+[Flutter - 自定义Dialog](https://www.jianshu.com/p/4bbbb5aa855d)

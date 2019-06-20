@@ -38,6 +38,7 @@ module.exports = {
             ['/stack/req/axios', 'axios'],
             ['/stack/req/umi-request', 'umi-request'],
             ['/stack/linux/tree', 'tree'],
+            ['/stack/webstorm/key-map', 'webstorm'],
           ]
         },
       ],
