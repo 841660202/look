@@ -37,12 +37,8 @@
   ### 原有表，后来表结构发生改动怎么办？
   原来表没有content字段，后来添加该字段，如果要先查询，数据库没有该字段，会出异常
   ### 如何查看db数据，如果以后用户说出问题了，可以把db上传，查看
-  <!-- ![avatar](../../.vuepress/public/a-db-view.jpg) -->
-
-<div align="center">
-  <img src="../../.vuepress/public/a-db-view.jpg" height="330" width="190" >
-  <img src="../../.vuepress/public/db-view.png" height="330" >
-</div>
+![avatar](../../assets/a-db-view.jpg)
+![avatar](../../assets/db-view.png)
 
 ## Text
 [Text解读](https://www.jianshu.com/p/4bbda37daabf)
@@ -134,15 +130,13 @@ visibility的控制还是比较麻烦的。这是Flutter设计上不符合正常
 [视觉差](https://www.jianshu.com/p/e6dafb114855)
 ## badge
 [badge](https://dartlang-pub.appspot.com/packages/badges)
-<div align="center">
-  <img src="../../.vuepress/public/badge.png" height="330" >
-</div>
+![avatar](../../assets/badge.png)
+
 
 [介绍页](https://dartlang-pub.appspot.com/packages/intro_slider)
 
-<div align="center">
-  <img src="../../.vuepress/public/intro-app.gif" height="330" >
-</div>
+![avatar](../../assets/intro-app.gif)
+
 ## 签名
 
 ```
@@ -207,9 +201,8 @@ flutter build
 
 ## Dart DevTools
 [ Dart DevTools](https://flutter.github.io/devtools/vscode)
-<div align="center">
-  <img src="../../.vuepress/public/dart-devTools.png" height="430" >
-</div>
+![avatar](../../assets/dart-devTools.png)
+
 
 ## 对话框
 

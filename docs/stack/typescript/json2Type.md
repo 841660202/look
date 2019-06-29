@@ -5,7 +5,7 @@
 [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
 
-![avatar](../../.vuepress/public/json2Type-interactive.gif)
+![avatar](../../assets/json2Type-interactive.gif)
 
 ## json 数据格式
 

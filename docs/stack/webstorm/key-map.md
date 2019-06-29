@@ -116,18 +116,15 @@ control + tab | Switch between tabs and tool window | 在标签页和工具间�
 Rainbow Brackets
 
 ## flutter 插件
-
-<div align="center">
-  <img src="../../.vuepress/public/webstorm/flutter-idea.png" height="330" >
-</div>
+ ![avatar](../../assets/webstorm/flutter-idea.png)
 
 [FlutterJsonBeanFactory插件json使用](https://www.jianshu.com/p/14cbcbaa74b7?tdsourcetag=s_pcqq_aiomsg)
 
 [CamelCase](https://plugins.jetbrains.com/plugin/7160-camelcase)
+
 缺陷:仅能实现大驼峰、小驼峰、下划线、中划线转化,并不能按照单词进行变换
 
-<div align="center">
-  <img src="../../.vuepress/public/webstorm/Camecase.gif">
-</div>
+ ![avatar](../../assets/webstorm/Camecase.gif)
+
 
 

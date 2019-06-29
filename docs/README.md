@@ -2,7 +2,7 @@
 home: true
 heroImage: https://avatars1.githubusercontent.com/u/18305361?s=460&v=4
 # heroText: blog
-description: 请勿贪玩
+description: 好奇心+偷懒
 # tagline: '.'
 # actionText: 快速上手 →
 # actionLink: /blog/FirstBlog.md

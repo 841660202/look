@@ -22,6 +22,7 @@ module.exports = {
             title: '日记',
             children: [
               ['/blog/FirstBlog', 'FirstBlog'],
+              ['/blog/20190622', '20190622'],
             ]
           },
         ],
@@ -30,19 +31,25 @@ module.exports = {
           title: '技术栈',
           children: [
             ['/stack/react/1', 'react'],
+            ['/stack/react/mockjs', 'mockjs'],
             ['/stack/react-native/1', 'react-native'],
             ['/stack/dingE/record', 'dingE'],
             ['/stack/flutter/app-update', 'flutter'],
+            ['/stack/flutter/list', 'flutter-list'],
+            ['/stack/flutter/model', 'flutter-model'],
+            ['/stack/flutter/source', '源码'],
+            ['/stack/flutter/study', 'study'],
             ['/stack/typescript/json2Type', 'json2Type'],
             ['/stack/req/fetch', 'fecth'],
             ['/stack/req/axios', 'axios'],
             ['/stack/req/umi-request', 'umi-request'],
             ['/stack/linux/tree', 'tree'],
             ['/stack/webstorm/key-map', 'webstorm'],
+            ['/stack/artical/words', 'words'],
           ]
         },
       ],
     }
-     
+
   }
 }
