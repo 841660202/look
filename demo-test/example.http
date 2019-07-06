@@ -1,0 +1,27 @@
+GET https://www.easy-mock.com/mock/5d131430724519274de77822/am/userDataCodeMessage HTTP/1.1
+
+###
+
+GET https://www.easy-mock.com/mock/5d131430724519274de77822/am/userDataCode HTTP/1.1
+
+###
+
+GET https://www.easy-mock.com/mock/5d131430724519274de77822/am/userData HTTP/1.1
+
+###
+
+GET https://www.easy-mock.com/mock/5d131430724519274de77822/am/user HTTP/1.1
+
+###
+
+GET https://www.easy-mock.com/mock/5d131430724519274de77822/am/user/list HTTP/1.1
+
+###
+
+POST https://example.com/comments HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
