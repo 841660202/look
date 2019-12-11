@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>react-native |  👣</title>
+    <meta name="description" content="越努力越幸运，考研失败了，请勿贪玩">
+    <link rel="icon" href="/look/favicon.jpg">
+    
+    <link rel="preload" href="/look/assets/css/0.styles.667d2b8f.css" as="style"><link rel="preload" href="/look/assets/js/app.b2ccb0bc.js" as="script"><link rel="preload" href="/look/assets/js/3.f56078e6.js" as="script"><link rel="prefetch" href="/look/assets/js/10.b471e18e.js"><link rel="prefetch" href="/look/assets/js/11.142b1017.js"><link rel="prefetch" href="/look/assets/js/12.38c12c1a.js"><link rel="prefetch" href="/look/assets/js/13.3752826a.js"><link rel="prefetch" href="/look/assets/js/14.6851574f.js"><link rel="prefetch" href="/look/assets/js/15.be40f810.js"><link rel="prefetch" href="/look/assets/js/16.3056c1b7.js"><link rel="prefetch" href="/look/assets/js/17.57430dd8.js"><link rel="prefetch" href="/look/assets/js/18.533f521c.js"><link rel="prefetch" href="/look/assets/js/19.89c42762.js"><link rel="prefetch" href="/look/assets/js/2.57f770e0.js"><link rel="prefetch" href="/look/assets/js/20.3639913f.js"><link rel="prefetch" href="/look/assets/js/21.fcca079c.js"><link rel="prefetch" href="/look/assets/js/22.2e3b1bd5.js"><link rel="prefetch" href="/look/assets/js/23.5f1efc98.js"><link rel="prefetch" href="/look/assets/js/24.4a510e86.js"><link rel="prefetch" href="/look/assets/js/25.a63093ec.js"><link rel="prefetch" href="/look/assets/js/26.f4aafbef.js"><link rel="prefetch" href="/look/assets/js/27.c482ae88.js"><link rel="prefetch" href="/look/assets/js/28.1cb9f9b1.js"><link rel="prefetch" href="/look/assets/js/29.91278398.js"><link rel="prefetch" href="/look/assets/js/30.f9b1e228.js"><link rel="prefetch" href="/look/assets/js/31.621d74fe.js"><link rel="prefetch" href="/look/assets/js/32.b73bab9d.js"><link rel="prefetch" href="/look/assets/js/33.f976c3bd.js"><link rel="prefetch" href="/look/assets/js/34.b8fd7e9b.js"><link rel="prefetch" href="/look/assets/js/35.b3b0b225.js"><link rel="prefetch" href="/look/assets/js/36.25d3b6f4.js"><link rel="prefetch" href="/look/assets/js/37.0d0a19fe.js"><link rel="prefetch" href="/look/assets/js/38.1344bf3b.js"><link rel="prefetch" href="/look/assets/js/39.95cdce16.js"><link rel="prefetch" href="/look/assets/js/4.0590639b.js"><link rel="prefetch" href="/look/assets/js/40.aa321c9e.js"><link rel="prefetch" href="/look/assets/js/41.0cffb016.js"><link rel="prefetch" href="/look/assets/js/42.fe3b4060.js"><link rel="prefetch" href="/look/assets/js/43.f400a076.js"><link rel="prefetch" href="/look/assets/js/44.1df23907.js"><link rel="prefetch" href="/look/assets/js/45.57f4b13e.js"><link rel="prefetch" href="/look/assets/js/46.8074bf51.js"><link rel="prefetch" href="/look/assets/js/47.ba79660f.js"><link rel="prefetch" href="/look/assets/js/5.7c0857a5.js"><link rel="prefetch" href="/look/assets/js/6.69989f0b.js"><link rel="prefetch" href="/look/assets/js/7.1a5c9794.js"><link rel="prefetch" href="/look/assets/js/8.14f7555d.js"><link rel="prefetch" href="/look/assets/js/9.d3587b59.js">
+    <link rel="stylesheet" href="/look/assets/css/0.styles.667d2b8f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/look/" class="home-link router-link-active"><!----> <span class="site-name"> 👣</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/look/" class="nav-link">首页</a></div><div class="nav-item"><a href="/look/blog/" class="nav-link">博客</a></div><div class="nav-item"><a href="/look/stack/" class="nav-link">技术栈</a></div><div class="nav-item"><a href="/look/pc/" class="nav-link">PC端</a></div><div class="nav-item"><a href="/look/mobile/" class="nav-link router-link-active">移动端</a></div><div class="nav-item"><a href="/look/mini/" class="nav-link">小程序</a></div><div class="nav-item"><a href="/look/uni/" class="nav-link">多端统一</a></div><div class="nav-item"><a href="/look/work/" class="nav-link">工作总结</a></div><div class="nav-item"><a href="/look/tool/" class="nav-link">效率工具</a></div><div class="nav-item"><a href="/look/devops/" class="nav-link">运维</a></div> <a href="https://github.com/841660202/look" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/look/" class="nav-link">首页</a></div><div class="nav-item"><a href="/look/blog/" class="nav-link">博客</a></div><div class="nav-item"><a href="/look/stack/" class="nav-link">技术栈</a></div><div class="nav-item"><a href="/look/pc/" class="nav-link">PC端</a></div><div class="nav-item"><a href="/look/mobile/" class="nav-link router-link-active">移动端</a></div><div class="nav-item"><a href="/look/mini/" class="nav-link">小程序</a></div><div class="nav-item"><a href="/look/uni/" class="nav-link">多端统一</a></div><div class="nav-item"><a href="/look/work/" class="nav-link">工作总结</a></div><div class="nav-item"><a href="/look/tool/" class="nav-link">效率工具</a></div><div class="nav-item"><a href="/look/devops/" class="nav-link">运维</a></div> <a href="https://github.com/841660202/look" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading open"><span>mobile</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/look/mobile/h5/mobile.html" class="sidebar-link">h5移动端</a></li><li><a href="/look/mobile/react-native/1.html" class="active sidebar-link">react-native</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#脚手架" class="sidebar-link">脚手架</a></li><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#组件库" class="sidebar-link">组件库</a></li><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#调试工具" class="sidebar-link">调试工具</a></li><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#上拉加载" class="sidebar-link">上拉加载</a></li><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#发布，上架app-store-改动" class="sidebar-link">发布，上架app store 改动</a></li><li class="sidebar-sub-header"><a href="/look/mobile/react-native/1.html#热更新-code-push" class="sidebar-link">热更新 code-push</a></li></ul></li><li><a href="/look/mobile/flutter/app-update.html" class="sidebar-link">flutter</a></li><li><a href="/look/mobile/flutter/list.html" class="sidebar-link">flutter-list</a></li><li><a href="/look/mobile/flutter/model.html" class="sidebar-link">flutter-model</a></li><li><a href="/look/mobile/flutter/source.html" class="sidebar-link">源码</a></li><li><a href="/look/mobile/flutter/study.html" class="sidebar-link">study</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="react-native"><a href="#react-native" class="header-anchor">#</a> react-native</h1> <h2 id="脚手架"><a href="#脚手架" class="header-anchor">#</a> 脚手架</h2> <p>(react-native-dva)[https://github.com/nihgwu/react-native-dva-starter]</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;DvaStarter&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.0.1&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;private&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token string">&quot;node node_modules/react-native/local-cli/cli.js start&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;jest&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;dependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;dva-core&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^1.3.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react&quot;</span><span class="token operator">:</span> <span class="token string">&quot;16.6.3&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react-native&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.57.8&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react-navigation&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^2.5.1&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react-navigation-redux-helpers&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^2.0.2&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react-redux&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.0.7&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;devDependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;@babel/plugin-proposal-decorators&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.3.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;babel-eslint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^8.2.4&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;babel-jest&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^23.0.1&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;babel-plugin-transform-decorators-legacy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^1.3.5&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;babel-plugin-transform-remove-console&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^6.9.4&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;babel-preset-react-native&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.0.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.0.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-config-airbnb&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^17.0.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-config-prettier&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^2.9.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-plugin-babel&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.1.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-plugin-import&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^2.12.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-plugin-jsx-a11y&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^6.0.3&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-plugin-prettier&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^2.6.1&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;eslint-plugin-react&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.9.1&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;husky&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^0.14.3&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;jest&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^23.1.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;prettier&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^1.13.5&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;react-test-renderer&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^16.4.1&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;jest&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;preset&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react-native&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div><h2 id="组件库"><a href="#组件库" class="header-anchor">#</a> 组件库</h2> <p><a href="https://rn.mobile.ant.design/index-cn" target="_blank" rel="noopener noreferrer">Design Mobile RN<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="调试工具"><a href="#调试工具" class="header-anchor">#</a> 调试工具</h2> <p><a href="https://github.com/jhen0409/react-native-debugger/releases" target="_blank" rel="noopener noreferrer">React Native Debugger<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><img src="/look/assets/img/react-native-debugger.dab26370.png" alt="avatar"></p> <h2 id="上拉加载"><a href="#上拉加载" class="header-anchor">#</a> 上拉加载</h2> <p><a href="https://www.jianshu.com/p/4e7185fc9740" target="_blank" rel="noopener noreferrer">上拉加载更多<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="发布，上架app-store-改动"><a href="#发布，上架app-store-改动" class="header-anchor">#</a> 发布，上架app store 改动</h2> <ul><li>审核时间变短了</li> <li>6.5寸图至少一个
+<img src="/look/assets/img/6.5tu.4c3e966f.png" alt="avatar"></li> <li>必须有隐私政策</li> <li>必须对应版本本地化（这个非常坑）
+<img src="/look/assets/img/bdh1.c706408d.png" alt="avatar"> <img src="/look/assets/img/bdh2.6babce39.png" alt="avatar"></li></ul> <h2 id="热更新-code-push"><a href="#热更新-code-push" class="header-anchor">#</a> 热更新 code-push</h2> <p>这个在新版本wifi下有时候就不能检测到更新，会有请求出错的问题（猜想：  应该将code-push-server部署在私服上使用或许会避免在检查信息时候出现网络请求出错的问题），正常情况下，体验会比pushy好些，push会有一些限制
+<img src="/look/assets/img/hotfix-pushy-limit.0bada2d7.png" alt="avatar"></p> <p>##热更新 pushy</p> <ul><li>按照github上面的安装，配置完项目，基本工作完成
+<a href="https://github.com/reactnativecn/react-native-pushy/blob/master/docs/faq_advance.md" target="_blank" rel="noopener noreferrer">github链接<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>写了几个shell脚本，玩玩罢了，不用也没关系
+<ul><li>clean.sh</li></ul></li></ul> <div class="language-sh extra-class"><pre class="language-text"><code> #!/bin/sh
+  cd android &amp;&amp; ./gradlew clean
+  cd ..
+  echo '🌹🌹🌹🌹🌹🌹🌹🌹完成清理🌹🌹🌹🌹🌹🌹🌹🌹'
+</code></pre></div><ul><li>hotfix-android</li></ul> <div class="language-sh extra-class"><pre class="language-text"><code>  #!/bin/sh
+  pushy bundle --platform android
+</code></pre></div><ul><li>release.sh</li></ul> <div class="language-sh extra-class"><pre class="language-text"><code> #!/bin/sh
+  cd android &amp;&amp; ./gradlew installRelease
+  cd ..
+  echo '打包结束,正在打开apk包目录。。。'
+  open ./android/app/build/outputs/apk/release
+  echo '🌹🌹🌹🌹🌹🌹🌹🌹完成 🌹🌹🌹🌹🌹🌹🌹🌹''
+</code></pre></div><ul><li>upload-apk-android.sh</li></ul> <div class="language-sh extra-class"><pre class="language-text"><code> #!/bin/sh
+  pushy uploadApk android/app/build/outputs/apk/release/app-release.apk
+</code></pre></div><ul><li>package.json</li></ul> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+<span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;MyTestApp&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.0.1&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;private&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;start&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react-native start&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;jest&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;run:android&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react-native run-android&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;run:ios&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react-native run-ios&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sh ./shell/release.sh&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;clean&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sh ./shell/clean.sh&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;echo&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sh ./shell/echo.sh&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;upload:android&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sh ./shell/upload-apk-android.sh&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;hotfix:android&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sh ./shell/hotfix-android.sh&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;lint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;eslint .&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;dependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;react&quot;</span><span class="token operator">:</span> <span class="token string">&quot;16.8.6&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;react-native&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.60.5&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;react-native-update&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.2.4&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;devDependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;@babel/core&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.5.5&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;@babel/runtime&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.5.5&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;@react-native-community/eslint-config&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^0.0.5&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;babel-jest&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^24.9.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;eslint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^6.3.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;jest&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^24.9.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;metro-react-native-babel-preset&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^0.56.0&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;react-test-renderer&quot;</span><span class="token operator">:</span> <span class="token string">&quot;16.8.6&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;jest&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;preset&quot;</span><span class="token operator">:</span> <span class="token string">&quot;react-native&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>注意点</li></ul> <p><img src="/look/assets/img/application.a435c0f9.png" alt="avatar"></p> <ul><li><p>官网界面-丑了点</p> <p><a href="https://update.reactnative.cn/dashboard/20372/version" target="_blank" rel="noopener noreferrer">官网界面<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li></ul> <p><img src="/look/assets/img/hotfix-pushy.4d8dce11.png" alt="avatar"></p> <ul><li>更新代码部分</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+* @version: v0.0.1
+* @Author: hailong.chen
+* @Date: 2019-09-04 16:47:59
+* @LastEditors: hailong.chen
+* @LastEditTime: 2019-09-04 17:52:55
+* @Descripttion:
+*/</span>
+<span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span>Component<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span>
+AppRegistry<span class="token punctuation">,</span>
+StyleSheet<span class="token punctuation">,</span>
+Platform<span class="token punctuation">,</span>
+Text<span class="token punctuation">,</span>
+View<span class="token punctuation">,</span>
+Alert<span class="token punctuation">,</span>
+TouchableOpacity<span class="token punctuation">,</span>
+Linking<span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span>
+isFirstTime<span class="token punctuation">,</span>
+isRolledBack<span class="token punctuation">,</span>
+packageVersion<span class="token punctuation">,</span>
+currentVersion<span class="token punctuation">,</span>
+checkUpdate<span class="token punctuation">,</span>
+downloadUpdate<span class="token punctuation">,</span>
+switchVersion<span class="token punctuation">,</span>
+switchVersionLater<span class="token punctuation">,</span>
+markSuccess<span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-update'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> _updateConfig <span class="token keyword">from</span> <span class="token string">'./update.json'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span>appKey<span class="token punctuation">}</span> <span class="token operator">=</span> _updateConfig<span class="token punctuation">[</span>Platform<span class="token punctuation">.</span><span class="token constant">OS</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Hotfix</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+<span class="token function">componentWillMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>isFirstTime<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span>
+      <span class="token string">'提示'</span><span class="token punctuation">,</span>
+      <span class="token string">'这是当前版本第一次启动,是否要模拟启动失败?失败将回滚到上一版本'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          text<span class="token punctuation">:</span> <span class="token string">'是'</span><span class="token punctuation">,</span>
+          <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'模拟启动失败,请重启应用'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          text<span class="token punctuation">:</span> <span class="token string">'否'</span><span class="token punctuation">,</span>
+          <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token function">markSuccess</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>isRolledBack<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'刚刚更新失败了,版本被回滚.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token function-variable function">doUpdate</span> <span class="token operator">=</span> <span class="token parameter">info</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">downloadUpdate</span><span class="token punctuation">(</span>info<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">hash</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'下载完毕,是否重启应用?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          text<span class="token punctuation">:</span> <span class="token string">'是'</span><span class="token punctuation">,</span>
+          <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token function">switchVersion</span><span class="token punctuation">(</span>hash<span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>text<span class="token punctuation">:</span> <span class="token string">'否'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          text<span class="token punctuation">:</span> <span class="token string">'下次启动时'</span><span class="token punctuation">,</span>
+          <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token function">switchVersionLater</span><span class="token punctuation">(</span>hash<span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'更新失败.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function-variable function">checkUpdate</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">checkUpdate</span><span class="token punctuation">(</span>appKey<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">info</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>info<span class="token punctuation">.</span>expired<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'您的应用版本已更新,请前往应用商店下载新的版本'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>
+            text<span class="token punctuation">:</span> <span class="token string">'确定'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+              info<span class="token punctuation">.</span>downloadUrl <span class="token operator">&amp;&amp;</span> Linking<span class="token punctuation">.</span><span class="token function">openURL</span><span class="token punctuation">(</span>info<span class="token punctuation">.</span>downloadUrl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>info<span class="token punctuation">.</span>upToDate<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'您的应用版本已是最新.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span>
+          <span class="token string">'提示'</span><span class="token punctuation">,</span>
+          <span class="token string">'检查到新的版本'</span> <span class="token operator">+</span> info<span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">',是否下载?\n'</span> <span class="token operator">+</span> info<span class="token punctuation">.</span>description<span class="token punctuation">,</span>
+          <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+              text<span class="token punctuation">:</span> <span class="token string">'是'</span><span class="token punctuation">,</span>
+              <span class="token function-variable function">onPress</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">doUpdate</span><span class="token punctuation">(</span>info<span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>text<span class="token punctuation">:</span> <span class="token string">'否'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      Alert<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'提示'</span><span class="token punctuation">,</span> <span class="token string">'更新失败.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>View style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>container<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Text style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>welcome<span class="token punctuation">}</span><span class="token operator">&gt;</span>欢迎使用热更新服务<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Text style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>welcome<span class="token punctuation">}</span><span class="token operator">&gt;</span>第<span class="token number">2</span>次 热更新<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Text style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>instructions<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        这是版本一 <span class="token punctuation">{</span><span class="token string">'\n'</span><span class="token punctuation">}</span>
+        当前包版本号<span class="token punctuation">:</span> <span class="token punctuation">{</span>packageVersion<span class="token punctuation">}</span>
+        <span class="token punctuation">{</span><span class="token string">'\n'</span><span class="token punctuation">}</span>
+        当前版本Hash<span class="token punctuation">:</span> <span class="token punctuation">{</span>currentVersion <span class="token operator">||</span> <span class="token string">'(空)'</span><span class="token punctuation">}</span>
+        <span class="token punctuation">{</span><span class="token string">'\n'</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>TouchableOpacity onPress<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>checkUpdate<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Text style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>instructions<span class="token punctuation">}</span><span class="token operator">&gt;</span>点击这里检查更新<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>TouchableOpacity<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>View<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> StyleSheet<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+container<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  flex<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  justifyContent<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+  alignItems<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+  backgroundColor<span class="token punctuation">:</span> <span class="token string">'#F5FCFF'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+welcome<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  fontSize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+  textAlign<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+  margin<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+instructions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  textAlign<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+  color<span class="token punctuation">:</span> <span class="token string">'#333333'</span><span class="token punctuation">,</span>
+  marginBottom<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ul><li>操作记录</li></ul> <div class="language- extra-class"><pre class="language-text"><code>N/A: version &quot;N/A -&gt; N/A&quot; is not yet installed.
+
+You need to run &quot;nvm install N/A&quot; to install it before using it.
+N/A: version &quot;N/A -&gt; N/A&quot; is not yet installed.
+
+You need to run &quot;nvm install N/A&quot; to install it before using it.
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run apk
+
+&gt; MyTestApp@0.0.1 apk /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh release.sh
+
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+&gt; Task :app:bundleReleaseJsAndAssets
+warning: the transform cache was reset.
+Loading dependency graph, done.
+info Writing bundle output to:, /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/generated/assets/react/release/index.android.bundle
+info Writing sourcemap output to:, /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/generated/sourcemaps/react/release/index.android.bundle.map
+info Done writing bundle output
+info Done writing sourcemap output
+info Copying 2 asset files
+info Done copying assets
+/Users/chenhailong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+
+&gt; Task :app:installRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:installRelease'.
+&gt; com.android.builder.testing.api.DeviceException: No connected devices!
+                                                                                  * Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 35s
+49 actionable tasks: 49 executed
+打包结束
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ open ./android/app/build/outputs/apk/release
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ open ./android/app/build/outputs/apk/release
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ reac-native run-android
+bash: reac-native: command not found
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 868 file(s) to forward-jetify. Using 4 workers...
+info Starting JS server...
+info Installing the app...
+/Users/chenhailong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is
+required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+
+&gt; Task :app:installDebug
+05:16:59 V/ddms: execute: running am get-config
+05:16:59 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:16:59 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:16:59 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:16:59 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:16:59 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:17:00 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:17:01 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:17:01 V/ddms: execute: returning
+05:17:01 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:17:01 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:17:01 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+47 actionable tasks: 45 executed, 2 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ react-native link react-native-update
+info Linking &quot;react-native-update&quot; iOS dependency
+info iOS module &quot;react-native-update&quot; has been successfully linked
+info Linking &quot;react-native-update&quot; Android dependency
+info Android module &quot;react-native-update&quot; has been successfully linked
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 875 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+&gt; Task :app:installDebug
+05:18:08 V/ddms: execute: running am get-config
+05:18:08 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:18:08 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:18:08 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:18:08 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:18:08 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:18:09 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:18:10 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:18:10 V/ddms: execute: returning
+05:18:10 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:18:10 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:18:10 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+47 actionable tasks: 5 executed, 42 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 875 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+&gt; Task :app:installDebug
+05:24:57 V/ddms: execute: running am get-config
+05:24:57 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:24:57 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:24:57 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:24:57 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:24:57 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:24:58 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:25:00 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:25:00 V/ddms: execute: returning
+05:25:00 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:25:00 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:25:00 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+47 actionable tasks: 2 executed, 45 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 875 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+&gt; Task :app:installDebug
+05:25:57 V/ddms: execute: running am get-config
+05:25:57 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:25:57 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:25:57 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:25:57 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:25:57 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:25:58 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:26:00 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:26:00 V/ddms: execute: returning
+05:26:00 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:26:00 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:26:00 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+47 actionable tasks: 2 executed, 45 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 875 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+&gt; Task :app:installDebug
+05:26:54 V/ddms: execute: running am get-config
+05:26:54 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:26:54 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:26:54 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:26:54 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:26:54 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:26:55 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:26:57 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:26:57 V/ddms: execute: returning
+05:26:57 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:26:57 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:26:57 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+47 actionable tasks: 7 executed, 40 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run run:android
+
+&gt; MyTestApp@0.0.1 run:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; react-native run-android
+
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually: 
+ - react-native-update (to unlink run: &quot;react-native unlink react-native-update&quot;)
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via &quot;react-native unlink &lt;dependency&gt;&quot; and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Running jetifier to migrate libraries to AndroidX. You can disable it using &quot;--no-jetifier&quot; flag.
+Jetifier found 875 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+&gt; Task :app:installDebug
+05:27:27 V/ddms: execute: running am get-config
+05:27:27 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:27:27 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'MHA-AL00 - 9' for app:debug
+05:27:27 D/app-debug.apk: Uploading app-debug.apk onto device 'GWY0216B05003202'
+05:27:27 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:27:27 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+05:27:28 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;
+05:27:30 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:27:30 V/ddms: execute: returning
+05:27:30 V/ddms: execute: running rm &quot;/data/local/tmp/app-debug.apk&quot;
+05:27:30 V/ddms: execute 'rm &quot;/data/local/tmp/app-debug.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:27:30 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+47 actionable tasks: 4 executed, 43 up-to-date
+info Connecting to the development server...
+info Starting the app on &quot;GWY0216B05003202&quot;...
+Starting: Intent { cmp=com.mytestapp/.MainActivity }
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run build
+
+&gt; MyTestApp@0.0.1 build /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh release.sh
+
+
+&gt; Task :app:bundleReleaseJsAndAssets
+warning: the transform cache was reset.
+Loading dependency graph, done.
+&lt;======-------&gt; 48% EXECUTING [27s]
+&gt; IDLE
+&gt; IDLE
+&gt; :app:bundleReleaseJsAndAssets
+&gt; IDLE
+^C打包结束,正在打开apk包目录。。。
+^C
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run build
+
+&gt; MyTestApp@0.0.1 build /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh release.sh
+
+
+&gt; Task :app:bundleReleaseJsAndAssets
+warning: the transform cache was reset.
+Loading dependency graph, done.
+info Writing bundle output to:, /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/generated/assets/react/release/index.android.bundle
+info Writing sourcemap output to:, /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/generated/sourcemaps/react/release/index.android.bundle.map
+info Done writing bundle output
+info Done writing sourcemap output
+info Copying 2 asset files
+info Done copying assets
+
+&gt; Task :app:installRelease
+05:31:13 V/ddms: execute: running am get-config
+05:31:13 V/ddms: execute 'am get-config' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:31:13 V/ddms: execute: returning
+Installing APK 'app-release.apk' on 'MHA-AL00 - 9' for app:release
+05:31:13 D/app-release.apk: Uploading app-release.apk onto device 'GWY0216B05003202'
+05:31:13 D/Device: Uploading file onto device 'GWY0216B05003202'
+05:31:13 D/ddms: Reading file permision of /Users/chenhailong/development/rn/hofix_pushy/MyTestApp/android/app/build/outputs/apk/release/app-release.apk as: rw-r--r--
+05:31:14 V/ddms: execute: running pm install -r -t &quot;/data/local/tmp/app-release.apk&quot;
+05:31:16 V/ddms: execute 'pm install -r -t &quot;/data/local/tmp/app-release.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:31:16 V/ddms: execute: returning
+05:31:16 V/ddms: execute: running rm &quot;/data/local/tmp/app-release.apk&quot;
+05:31:16 V/ddms: execute 'rm &quot;/data/local/tmp/app-release.apk&quot;' on 'GWY0216B05003202' : EOF hit. Read: -1
+05:31:16 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 39s
+49 actionable tasks: 16 executed, 33 up-to-date
+打包结束,正在打开apk包目录。。。
+🌹🌹🌹🌹🌹🌹🌹🌹完成 🌹🌹🌹🌹🌹🌹🌹🌹
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ sh hotfix.sh
+ Uploading [=============================================================================================================================] 100% 0.0s
+Apk uploaded: 34087
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run echo
+&gt; MyTestApp@0.0.1 echo /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh ./shell/echo.sh
+
+hello
+/Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ pushy bundle --platform android
+Bundling with React Native version:  0.60.5
+Running react-native bundle command:
+Loading dependency graph, done.
+info Writing bundle output to:, build/intermedia/android/index.bundlejs
+info Done writing bundle output
+info Copying 2 asset files
+info Done copying assets
+Packing
+Bundled saved to: build/output/android.1567589963326.ppk
+Would you like to publish it?(Y/N) N
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ pushy bundle --platform android
+Bundling with React Native version:  0.60.5
+Running react-native bundle command:
+Loading dependency graph, done.
+info Writing bundle output to:, build/intermedia/android/index.bundlejs
+info Done writing bundle output
+info Copying 2 asset files
+info Done copying assets
+Packing
+Bundled saved to: build/output/android.1567590193937.ppk
+Would you like to publish it?(Y/N) y
+ Uploading [=================================================================================================] 100% 0.0s
+Enter version name: 0.0.1
+Enter description: first test
+Enter meta info: 这是meta
+Version published: 73205
+Would you like to bind packages to this version?(Y/N) y
+
+ ┌────────────┬────────────────────────┐
+ │ Package Id │        Version         │
+ ├────────────┼────────────────────────┤
+ │   34087    │ 0.0.1(normal) (newest) │
+ └────────────┴────────────────────────┘
+
+Total 1 package(s).
+Enter Package Id: 20372
+Enter Package Id: 34087
+Ok.
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run hotfix:android
+
+&gt; MyTestApp@0.0.1 hotfix:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh ./shell/hotfix-android.sh
+
+Bundling with React Native version:  0.60.5
+Running react-native bundle command:
+Loading dependency graph, done.
+info Writing bundle output to:, build/intermedia/android/index.bundlejs
+info Done writing bundle output
+info Copying 2 asset files
+info Done copying assets
+Packing
+Bundled saved to: build/output/android.1567590873931.ppk
+Would you like to publish it?(Y/N) y
+ Uploading [=================================================================================================] 100% 0.0s
+Enter version name: 0.0.1.1
+Enter description: 改个版本试下
+Enter meta info: 不知道啊
+Version published: 73206
+Would you like to bind packages to this version?(Y/N) yy
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ npm run hotfix:android
+
+&gt; MyTestApp@0.0.1 hotfix:android /Users/chenhailong/development/rn/hofix_pushy/MyTestApp
+&gt; sh ./shell/hotfix-android.sh
+
+Bundling with React Native version:  0.60.5
+Running react-native bundle command:
+Loading dependency graph, done.
+Loading dependency graph...info Writing bundle output to:, build/intermedia/android/index.bundlejs
+info Done writing bundle output
+info Copying 2 asset files
+info Done copying assets
+Packing
+Bundled saved to: build/output/android.1567590954505.ppk
+Would you like to publish it?(Y/N) y
+ Uploading [=================================================================================================] 100% 0.0s
+Enter version name: 0.0.1.1
+Enter description:  改个版本试下
+Enter meta info: 不知道啊
+Version published: 73207
+Would you like to bind packages to this version?(Y/N) y
+
+ ┌────────────┬──────────────────────────────────────┐
+ │ Package Id │               Version                │
+ ├────────────┼──────────────────────────────────────┤
+ │   34087    │ 0.0.1(normal) - 73205 Fm3ICLxb 0.0.1 │
+ └────────────┴──────────────────────────────────────┘
+
+Total 1 package(s).
+Enter Package Id: 34087
+Ok.
+chenhailong@chenhailongdeMacBook-Pro:~/development/rn/hofix_pushy/MyTestApp$ 
+
+
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/look/mobile/h5/mobile.html" class="prev">
+          h5移动端
+        </a></span> <span class="next"><a href="/look/mobile/flutter/app-update.html">
+          flutter
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/look/assets/js/app.b2ccb0bc.js" defer></script><script src="/look/assets/js/3.f56078e6.js" defer></script>
+  </body>
+</html>

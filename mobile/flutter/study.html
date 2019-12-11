@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>yaml |  👣</title>
+    <meta name="description" content="越努力越幸运，考研失败了，请勿贪玩">
+    <link rel="icon" href="/look/favicon.jpg">
+    
+    <link rel="preload" href="/look/assets/css/0.styles.667d2b8f.css" as="style"><link rel="preload" href="/look/assets/js/app.b2ccb0bc.js" as="script"><link rel="preload" href="/look/assets/js/2.57f770e0.js" as="script"><link rel="prefetch" href="/look/assets/js/10.b471e18e.js"><link rel="prefetch" href="/look/assets/js/11.142b1017.js"><link rel="prefetch" href="/look/assets/js/12.38c12c1a.js"><link rel="prefetch" href="/look/assets/js/13.3752826a.js"><link rel="prefetch" href="/look/assets/js/14.6851574f.js"><link rel="prefetch" href="/look/assets/js/15.be40f810.js"><link rel="prefetch" href="/look/assets/js/16.3056c1b7.js"><link rel="prefetch" href="/look/assets/js/17.57430dd8.js"><link rel="prefetch" href="/look/assets/js/18.533f521c.js"><link rel="prefetch" href="/look/assets/js/19.89c42762.js"><link rel="prefetch" href="/look/assets/js/20.3639913f.js"><link rel="prefetch" href="/look/assets/js/21.fcca079c.js"><link rel="prefetch" href="/look/assets/js/22.2e3b1bd5.js"><link rel="prefetch" href="/look/assets/js/23.5f1efc98.js"><link rel="prefetch" href="/look/assets/js/24.4a510e86.js"><link rel="prefetch" href="/look/assets/js/25.a63093ec.js"><link rel="prefetch" href="/look/assets/js/26.f4aafbef.js"><link rel="prefetch" href="/look/assets/js/27.c482ae88.js"><link rel="prefetch" href="/look/assets/js/28.1cb9f9b1.js"><link rel="prefetch" href="/look/assets/js/29.91278398.js"><link rel="prefetch" href="/look/assets/js/3.f56078e6.js"><link rel="prefetch" href="/look/assets/js/30.f9b1e228.js"><link rel="prefetch" href="/look/assets/js/31.621d74fe.js"><link rel="prefetch" href="/look/assets/js/32.b73bab9d.js"><link rel="prefetch" href="/look/assets/js/33.f976c3bd.js"><link rel="prefetch" href="/look/assets/js/34.b8fd7e9b.js"><link rel="prefetch" href="/look/assets/js/35.b3b0b225.js"><link rel="prefetch" href="/look/assets/js/36.25d3b6f4.js"><link rel="prefetch" href="/look/assets/js/37.0d0a19fe.js"><link rel="prefetch" href="/look/assets/js/38.1344bf3b.js"><link rel="prefetch" href="/look/assets/js/39.95cdce16.js"><link rel="prefetch" href="/look/assets/js/4.0590639b.js"><link rel="prefetch" href="/look/assets/js/40.aa321c9e.js"><link rel="prefetch" href="/look/assets/js/41.0cffb016.js"><link rel="prefetch" href="/look/assets/js/42.fe3b4060.js"><link rel="prefetch" href="/look/assets/js/43.f400a076.js"><link rel="prefetch" href="/look/assets/js/44.1df23907.js"><link rel="prefetch" href="/look/assets/js/45.57f4b13e.js"><link rel="prefetch" href="/look/assets/js/46.8074bf51.js"><link rel="prefetch" href="/look/assets/js/47.ba79660f.js"><link rel="prefetch" href="/look/assets/js/5.7c0857a5.js"><link rel="prefetch" href="/look/assets/js/6.69989f0b.js"><link rel="prefetch" href="/look/assets/js/7.1a5c9794.js"><link rel="prefetch" href="/look/assets/js/8.14f7555d.js"><link rel="prefetch" href="/look/assets/js/9.d3587b59.js">
+    <link rel="stylesheet" href="/look/assets/css/0.styles.667d2b8f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/look/" class="home-link router-link-active"><!----> <span class="site-name"> 👣</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/look/" class="nav-link">首页</a></div><div class="nav-item"><a href="/look/blog/" class="nav-link">博客</a></div><div class="nav-item"><a href="/look/stack/" class="nav-link">技术栈</a></div><div class="nav-item"><a href="/look/pc/" class="nav-link">PC端</a></div><div class="nav-item"><a href="/look/mobile/" class="nav-link router-link-active">移动端</a></div><div class="nav-item"><a href="/look/mini/" class="nav-link">小程序</a></div><div class="nav-item"><a href="/look/uni/" class="nav-link">多端统一</a></div><div class="nav-item"><a href="/look/work/" class="nav-link">工作总结</a></div><div class="nav-item"><a href="/look/tool/" class="nav-link">效率工具</a></div><div class="nav-item"><a href="/look/devops/" class="nav-link">运维</a></div> <a href="https://github.com/841660202/look" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/look/" class="nav-link">首页</a></div><div class="nav-item"><a href="/look/blog/" class="nav-link">博客</a></div><div class="nav-item"><a href="/look/stack/" class="nav-link">技术栈</a></div><div class="nav-item"><a href="/look/pc/" class="nav-link">PC端</a></div><div class="nav-item"><a href="/look/mobile/" class="nav-link router-link-active">移动端</a></div><div class="nav-item"><a href="/look/mini/" class="nav-link">小程序</a></div><div class="nav-item"><a href="/look/uni/" class="nav-link">多端统一</a></div><div class="nav-item"><a href="/look/work/" class="nav-link">工作总结</a></div><div class="nav-item"><a href="/look/tool/" class="nav-link">效率工具</a></div><div class="nav-item"><a href="/look/devops/" class="nav-link">运维</a></div> <a href="https://github.com/841660202/look" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading open"><span>mobile</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/look/mobile/h5/mobile.html" class="sidebar-link">h5移动端</a></li><li><a href="/look/mobile/react-native/1.html" class="sidebar-link">react-native</a></li><li><a href="/look/mobile/flutter/app-update.html" class="sidebar-link">flutter</a></li><li><a href="/look/mobile/flutter/list.html" class="sidebar-link">flutter-list</a></li><li><a href="/look/mobile/flutter/model.html" class="sidebar-link">flutter-model</a></li><li><a href="/look/mobile/flutter/source.html" class="sidebar-link">源码</a></li><li><a href="/look/mobile/flutter/study.html" class="active sidebar-link">study</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#yaml" class="sidebar-link">yaml</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#awesome-flutter-snippets" class="sidebar-link">Awesome Flutter Snippets</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#封装请求-v1" class="sidebar-link">封装请求 v1</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#加持redux" class="sidebar-link">加持redux</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#从需要的角度谈fish-redux" class="sidebar-link">从需要的角度谈fish-redux</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#adapter-与组件类似" class="sidebar-link">adapter(与组件类似)</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#fluwx" class="sidebar-link">fluwx</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#dart-优化" class="sidebar-link">dart 优化</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#idea优化" class="sidebar-link">idea优化</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#vscode-restful" class="sidebar-link">vscode restful</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#项目架构" class="sidebar-link">项目架构</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#flutter-typeahead-1-6-1-类似模糊查询组件" class="sidebar-link">flutter_typeahead 1.6.1 类似模糊查询组件</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#majascan" class="sidebar-link">majascan</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#qr-code-scanner" class="sidebar-link">qrcodescanner</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#flutter-qr-reader" class="sidebar-link">flutterqrreader</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#雨滴特效" class="sidebar-link">雨滴特效</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#项目参考-fish-redux" class="sidebar-link">项目参考 fish-redux</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#percent-indicator-2-1-1-1" class="sidebar-link">percent_indicator 2.1.1+1</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#flutter-image-compress" class="sidebar-link">flutterimagecompress</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#badges" class="sidebar-link">badges</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#flutter-cupertino-date-picker" class="sidebar-link">fluttercupertinodate_picker</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#shared-preferences" class="sidebar-link">shared_preferences</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#flutter-speed-dial" class="sidebar-link">flutterspeeddial</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#oktoast" class="sidebar-link">oktoast</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#table-calendar" class="sidebar-link">table_calendar</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#permission-handler" class="sidebar-link">permission_handler</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#cached-network-image" class="sidebar-link">cachednetworkimage</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#image-picker" class="sidebar-link">image_picker</a></li><li class="sidebar-sub-header"><a href="/look/mobile/flutter/study.html#i18n" class="sidebar-link">i18n</a></li></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><p><a href="https://github.com/alibaba/flutter-go" target="_blank" rel="noopener noreferrer">flutter-go<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://github.com/OpenFlutter/Flutter-Notebook" target="_blank" rel="noopener noreferrer">Flutter-Notebook<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://github.com/kaina404/FlutterDouBan" target="_blank" rel="noopener noreferrer">FlutterDouBan<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://github.com/alibaba/fish-redux" target="_blank" rel="noopener noreferrer">fish-redux<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><img src="/look/assets/img/coder-level.427455c9.png" alt="avatar"></p> <h2 id="yaml"><a href="#yaml" class="header-anchor">#</a> yaml</h2> <ul><li>本地资源图片</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">assets</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> assets/
+    <span class="token punctuation">-</span> assets/images/
+</code></pre></div><ul><li>本地字体文件</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">fonts</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">family</span><span class="token punctuation">:</span> iconfont
+        <span class="token key atrule">fonts</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">asset</span><span class="token punctuation">:</span> assets/fonts/iconfont.ttf
+
+</code></pre></div><p><img src="/look/assets/img/yaml-assets.7136ad75.png" alt="avatar"></p> <h2 id="awesome-flutter-snippets"><a href="#awesome-flutter-snippets" class="header-anchor">#</a> Awesome Flutter Snippets</h2> <table><thead><tr><th style="text-align:left">Shortcut</th> <th style="text-align:left">Expanded</th> <th style="text-align:left">Description</th></tr></thead> <tbody><tr><td style="text-align:left">statelessW</td> <td style="text-align:left">Stateless Widget</td> <td style="text-align:left">Creates a Stateless widget</td></tr> <tr><td style="text-align:left">statefulW</td> <td style="text-align:left">Stateful Widget</td> <td style="text-align:left">Creates a Stateful widget</td></tr> <tr><td style="text-align:left">build</td> <td style="text-align:left">Build Method</td> <td style="text-align:left">Describes the part of the user interface represented by the widget.</td></tr> <tr><td style="text-align:left">initS</td> <td style="text-align:left">InitState</td> <td style="text-align:left">Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.</td></tr> <tr><td style="text-align:left">dis</td> <td style="text-align:left">Dispose</td> <td style="text-align:left">Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.</td></tr> <tr><td style="text-align:left">reassemble</td> <td style="text-align:left">Reassemble</td> <td style="text-align:left">Called whenever the application is reassembled during debugging, for example during hot reload.</td></tr> <tr><td style="text-align:left">didChangeD</td> <td style="text-align:left">didChangeDependencies</td> <td style="text-align:left">Called when a dependency of this State object changes</td></tr> <tr><td style="text-align:left">didUpdateW</td> <td style="text-align:left">didUpdateWidget</td> <td style="text-align:left">Called whenever the widget configuration changes.</td></tr> <tr><td style="text-align:left">customClipper</td> <td style="text-align:left">Custom Clipper</td> <td style="text-align:left">Used for creating custom shapes</td></tr> <tr><td style="text-align:left">customPainter</td> <td style="text-align:left">Custom Painter</td> <td style="text-align:left">Used for creating custom paint</td></tr> <tr><td style="text-align:left">listViewB</td> <td style="text-align:left">ListView.Builder</td> <td style="text-align:left">Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null itemCount improves the ability of the ListView to estimate the maximum scroll extent.</td></tr> <tr><td style="text-align:left">customScrollV</td> <td style="text-align:left">Custom ScrollView</td> <td style="text-align:left">Creates a ScrollView that creates custom scroll effects using slivers. If the primary argument is true, the controller must be null.</td></tr> <tr><td style="text-align:left">streamBldr</td> <td style="text-align:left">Stream Builder</td> <td style="text-align:left">Creates a new StreamBuilder that builds itself based on the latest snapshot of interaction with the specified stream</td></tr> <tr><td style="text-align:left">animatedBldr</td> <td style="text-align:left">Animated Builder</td> <td style="text-align:left">Creates an Animated Builder. The widget specified to child is passed to the builder</td></tr> <tr><td style="text-align:left">statefulBldr</td> <td style="text-align:left">Stateful Builder</td> <td style="text-align:left">Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.</td></tr> <tr><td style="text-align:left">oriantationBldr</td> <td style="text-align:left">Orientation Builder</td> <td style="text-align:left">Creates a builder which allows for the orientation of the device to be specified and referenced</td></tr> <tr><td style="text-align:left">layoutBldr</td> <td style="text-align:left">Layout Builder</td> <td style="text-align:left">Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.</td></tr> <tr><td style="text-align:left">singleChildSV</td> <td style="text-align:left">Single Child Scroll View</td> <td style="text-align:left">Creates a scroll view with a single child</td></tr> <tr><td style="text-align:left">futureBldr</td> <td style="text-align:left">Future Builder</td> <td style="text-align:left">Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.</td></tr> <tr><td style="text-align:left">nosm</td> <td style="text-align:left">No Such Method</td> <td style="text-align:left">This method is invoked when a non-existent method or property is accessed.</td></tr> <tr><td style="text-align:left">inheritedW</td> <td style="text-align:left">Inherited Widget</td> <td style="text-align:left">Class used to propagate information down the widget tree.</td></tr> <tr><td style="text-align:left">mounted</td> <td style="text-align:left">Mounted</td> <td style="text-align:left">Whether this State object is currently in a tree.</td></tr> <tr><td style="text-align:left">snk</td> <td style="text-align:left">Sink</td> <td style="text-align:left">A Sink is the input of a stream.</td></tr> <tr><td style="text-align:left">strm</td> <td style="text-align:left">Stream</td> <td style="text-align:left">A source of asynchronous data events. A stream can be of any data type.</td></tr> <tr><td style="text-align:left">toStr</td> <td style="text-align:left">To String</td> <td style="text-align:left">Returns a string representation of this object.</td></tr> <tr><td style="text-align:left">debugP</td> <td style="text-align:left">Debug Print</td> <td style="text-align:left">Prints a message to the console, which you can access using the flutter tool's logs command (flutter logs).</td></tr> <tr><td style="text-align:left">importM</td> <td style="text-align:left">Material Package</td> <td style="text-align:left">Import Material package.</td></tr> <tr><td style="text-align:left">importC</td> <td style="text-align:left">Cupertino Package</td> <td style="text-align:left">Import Cupertino package.</td></tr> <tr><td style="text-align:left">mateapp</td> <td style="text-align:left">Material App</td> <td style="text-align:left">Create a new Material App.</td></tr> <tr><td style="text-align:left">cupeapp</td> <td style="text-align:left">Cupertino Package</td> <td style="text-align:left">Create a New Cupertino App.</td></tr></tbody></table> <h2 id="封装请求-v1"><a href="#封装请求-v1" class="header-anchor">#</a> 封装请求 v1</h2> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'package:fluttertoast/fluttertoast.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Tip</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> <span class="token function">success</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Fluttertoast<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span>
+      msg<span class="token punctuation">:</span> message<span class="token punctuation">,</span>
+      backgroundColor<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>black54<span class="token punctuation">,</span>
+      toastLength<span class="token punctuation">:</span> Toast<span class="token punctuation">.</span>LENGTH_SHORT<span class="token punctuation">,</span>
+      gravity<span class="token punctuation">:</span> ToastGravity<span class="token punctuation">.</span>CENTER<span class="token punctuation">,</span>
+      timeInSecForIos<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">static</span> <span class="token function">fail</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Fluttertoast<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span>
+      msg<span class="token punctuation">:</span> message<span class="token punctuation">,</span>
+      backgroundColor<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>red<span class="token punctuation">[</span><span class="token number">400</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      toastLength<span class="token punctuation">:</span> Toast<span class="token punctuation">.</span>LENGTH_SHORT<span class="token punctuation">,</span>
+      gravity<span class="token punctuation">:</span> ToastGravity<span class="token punctuation">.</span>CENTER<span class="token punctuation">,</span>
+      timeInSecForIos<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div><div class="language-dart extra-class"><pre class="language-dart"><code>
+<span class="token comment">// 版本1,</span>
+<span class="token comment">// 缺陷，因为dio拦截器是在实例化之外，request之中，这就导致每次请求的时候都会对dio添加拦截器，而dio的拦截器并不是覆盖上一个拦截器，会导致拦截器重叠，最终结果是：第一次请求，执行一次拦截（返回一次），第二次请求，执行两次拦截（返回2次），第三次请求会执行三次拦截（返回3次）</span>
+<span class="token keyword">import</span> <span class="token string">'dart:convert'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token string">'package:dio/dio.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'dart:io'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'dart:async'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'package:fluttertoast/fluttertoast.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token string">'toast.dart'</span><span class="token punctuation">;</span>
+<span class="token comment">/*
+ * 封装 restful 请求
+ *
+ * GET、POST、DELETE、PATCH
+ * 主要作用为统一处理相关事务：
+ *  - 统一处理请求前缀；
+ *  - 统一打印请求信息；
+ *  - 统一打印响应信息；
+ *  - 统一打印报错信息；
+ */</span>
+
+<span class="token keyword">class</span> <span class="token class-name">HttpUtils</span> <span class="token punctuation">{</span>
+  <span class="token comment">/// global dio object</span>
+  <span class="token keyword">static</span> Dio dio<span class="token punctuation">;</span>
+
+  <span class="token comment">/// default options</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String API_PREFIX <span class="token operator">=</span>
+      <span class="token string">'https://www.easy-mock.com/mock/5d131430724519274de77822/am'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> int CONNECT_TIMEOUT <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> int RECEIVE_TIMEOUT <span class="token operator">=</span> <span class="token number">3000</span><span class="token punctuation">;</span>
+
+  <span class="token comment">/// http request methods</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String GET <span class="token operator">=</span> <span class="token string">'get'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String POST <span class="token operator">=</span> <span class="token string">'post'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String PUT <span class="token operator">=</span> <span class="token string">'put'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String PATCH <span class="token operator">=</span> <span class="token string">'patch'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String DELETE <span class="token operator">=</span> <span class="token string">'delete'</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">static</span> Future<span class="token operator">&lt;</span><span class="token keyword">dynamic</span><span class="token operator">&gt;</span> <span class="token function">request</span><span class="token punctuation">(</span>String url<span class="token punctuation">,</span> <span class="token punctuation">{</span>data<span class="token punctuation">,</span> method<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token keyword">async</span> <span class="token punctuation">{</span>
+    data <span class="token operator">=</span> data <span class="token operator">?</span><span class="token operator">?</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    method <span class="token operator">=</span> method <span class="token operator">?</span><span class="token operator">?</span> <span class="token string">'GET'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/// restful 请求处理</span>
+    data<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> value<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>url<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        url <span class="token operator">=</span> url<span class="token punctuation">.</span><span class="token function">replaceAll</span><span class="token punctuation">(</span><span class="token string">':$key'</span><span class="token punctuation">,</span> value<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    Dio dio <span class="token operator">=</span> <span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//添加拦截器</span>
+    dio<span class="token punctuation">.</span>interceptors
+        <span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">InterceptorsWrapper</span><span class="token punctuation">(</span>onRequest<span class="token punctuation">:</span> <span class="token punctuation">(</span>RequestOptions options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> options<span class="token punctuation">;</span> <span class="token comment">//continue</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> onResponse<span class="token punctuation">:</span> <span class="token punctuation">(</span>Response response<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;响应之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// solveServiceCode(response);</span>
+      <span class="token keyword">return</span> response<span class="token punctuation">;</span> <span class="token comment">// continue</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> onError<span class="token punctuation">:</span> <span class="token punctuation">(</span>DioError e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;错误之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">formatExceptionError</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/// 打印请求相关信息：请求地址、请求方式、请求参数</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求地址：【'</span> <span class="token operator">+</span> dio<span class="token punctuation">.</span>options<span class="token punctuation">.</span>baseUrl <span class="token operator">+</span> url <span class="token operator">+</span> <span class="token string">'】'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求参数：'</span> <span class="token operator">+</span> data<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">var</span> result<span class="token punctuation">;</span>
+
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+      Response response <span class="token operator">=</span> <span class="token keyword">await</span> dio<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>
+          data<span class="token punctuation">:</span> data<span class="token punctuation">,</span> options<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Options</span><span class="token punctuation">(</span>method<span class="token punctuation">:</span> method<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// result = response.data;</span>
+      result <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">solveServiceCode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">/// 打印响应相关信息</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'响应数据成功！'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> on DioError <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求出错：'</span> <span class="token operator">+</span> e<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;result&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;</span> <span class="token operator">+</span> result<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/// 创建 dio 实例对象</span>
+  <span class="token keyword">static</span> Dio <span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>dio <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">/// 全局属性：请求前缀、连接超时时间、响应超时时间</span>
+      BaseOptions option <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BaseOptions</span><span class="token punctuation">(</span>
+          baseUrl<span class="token punctuation">:</span> API_PREFIX<span class="token punctuation">,</span>
+          connectTimeout<span class="token punctuation">:</span> CONNECT_TIMEOUT<span class="token punctuation">,</span>
+          receiveTimeout<span class="token punctuation">:</span> RECEIVE_TIMEOUT<span class="token punctuation">,</span>
+          headers<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token string">&quot;user-agent&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;dio&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;api&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          contentType<span class="token punctuation">:</span> ContentType<span class="token punctuation">.</span>JSON<span class="token punctuation">,</span>
+          <span class="token comment">// Transform the response data to a String encoded with UTF8.</span>
+          <span class="token comment">// The default value is [ResponseType.JSON].</span>
+          responseType<span class="token punctuation">:</span> ResponseType<span class="token punctuation">.</span>plain<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      dio <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Dio</span><span class="token punctuation">(</span>option<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> dio<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/// 清空 dio 对象</span>
+  <span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    dio <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 拦截器-响应之前</span>
+  <span class="token keyword">static</span> <span class="token function">solveServiceCode</span><span class="token punctuation">(</span>Response response<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> result <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'result'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> data <span class="token operator">=</span> json<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">&quot;code&quot;</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token string">'000000'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      Tip<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">]</span> <span class="token operator">is</span> String <span class="token operator">?</span> data<span class="token punctuation">[</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">]</span> <span class="token punctuation">:</span> <span class="token string">'未知错误'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> data<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 拦截器-错误之前-异常错误处理</span>
+  <span class="token keyword">static</span> <span class="token function">formatExceptionError</span><span class="token punctuation">(</span>DioError e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    String message <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>CONNECT_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// It occurs when url is opened timeout.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;连接超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;连接超时&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>SEND_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// It occurs when url is sent timeout.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>RECEIVE_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">//It occurs when receiving timeout</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;响应超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;响应超时&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>RESPONSE<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// When the server response, but with a incorrect status, such as 404, 503...</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;出现异常&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;出现异常&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>CANCEL<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// When the request is cancelled, dio will throw a error with this type.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求取消&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;请求取消&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token comment">//DEFAULT Default error type, Some other Error. In this case, you can read the DioError.error if it is not null.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;未知错误&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;未知错误&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    Tip<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-dart extra-class"><pre class="language-dart"><code><span class="token comment">// 版本2,</span>
+<span class="token comment">// file: httpUtil.dart</span>
+<span class="token keyword">import</span> <span class="token string">'dart:convert'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token string">'package:dio/dio.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token string">'dart:io'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'dart:async'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token string">'tip.dart'</span><span class="token punctuation">;</span>
+<span class="token comment">/*
+ * 封装 restful 请求
+ *
+ * GET、POST、DELETE、PATCH
+ * 主要作用为统一处理相关事务：
+ *  - 统一处理请求前缀；
+ *  - 统一打印请求信息；
+ *  - 统一打印响应信息；
+ *  - 统一打印报错信息；
+ */</span>
+
+<span class="token keyword">class</span> <span class="token class-name">HttpUtils</span> <span class="token punctuation">{</span>
+  <span class="token comment">/// global dio object</span>
+  <span class="token keyword">static</span> Dio dio<span class="token punctuation">;</span>
+
+  <span class="token comment">/// default options</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String API_PREFIX <span class="token operator">=</span>
+      <span class="token string">'https://www.easy-mock.com/mock/5d131430724519274de77822/am'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> int CONNECT_TIMEOUT <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> int RECEIVE_TIMEOUT <span class="token operator">=</span> <span class="token number">3000</span><span class="token punctuation">;</span>
+
+  <span class="token comment">/// http request methods</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String GET <span class="token operator">=</span> <span class="token string">'get'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String POST <span class="token operator">=</span> <span class="token string">'post'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String PUT <span class="token operator">=</span> <span class="token string">'put'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String PATCH <span class="token operator">=</span> <span class="token string">'patch'</span><span class="token punctuation">;</span>
+  <span class="token keyword">static</span> <span class="token keyword">const</span> String DELETE <span class="token operator">=</span> <span class="token string">'delete'</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">static</span> Future<span class="token operator">&lt;</span><span class="token keyword">dynamic</span><span class="token operator">&gt;</span> <span class="token function">request</span><span class="token punctuation">(</span>String url<span class="token punctuation">,</span> <span class="token punctuation">{</span>data<span class="token punctuation">,</span> method<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token keyword">async</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'api :'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    data <span class="token operator">=</span> data <span class="token operator">?</span><span class="token operator">?</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    method <span class="token operator">=</span> method <span class="token operator">?</span><span class="token operator">?</span> <span class="token string">'GET'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/// restful 请求处理</span>
+    data<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> value<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>url<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        url <span class="token operator">=</span> url<span class="token punctuation">.</span><span class="token function">replaceAll</span><span class="token punctuation">(</span><span class="token string">':$key'</span><span class="token punctuation">,</span> value<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    Dio dio <span class="token operator">=</span> <span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/// 打印请求相关信息：请求地址、请求方式、请求参数</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求地址：【'</span> <span class="token operator">+</span> dio<span class="token punctuation">.</span>options<span class="token punctuation">.</span>baseUrl <span class="token operator">+</span> url <span class="token operator">+</span> <span class="token string">'】'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求参数：'</span> <span class="token operator">+</span> data<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">var</span> result<span class="token punctuation">;</span>
+
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+      Response response <span class="token operator">=</span> <span class="token keyword">await</span> dio<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>
+          data<span class="token punctuation">:</span> data<span class="token punctuation">,</span> options<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Options</span><span class="token punctuation">(</span>method<span class="token punctuation">:</span> method<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      result <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'响应数据成功！'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> on DioError <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'请求出错：'</span> <span class="token operator">+</span> e<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">print</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> result<span class="token punctuation">;</span> <span class="token comment">//不做处理，在拦截器处理</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/// 创建 dio 实例对象</span>
+  <span class="token keyword">static</span> Dio <span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">'createInstance'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>dio <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">/// 全局属性：请求前缀、连接超时时间、响应超时时间</span>
+      BaseOptions option <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BaseOptions</span><span class="token punctuation">(</span>
+          baseUrl<span class="token punctuation">:</span> API_PREFIX<span class="token punctuation">,</span>
+          connectTimeout<span class="token punctuation">:</span> CONNECT_TIMEOUT<span class="token punctuation">,</span>
+          receiveTimeout<span class="token punctuation">:</span> RECEIVE_TIMEOUT<span class="token punctuation">,</span>
+          headers<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token string">&quot;user-agent&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;dio&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;api&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          contentType<span class="token punctuation">:</span> ContentType<span class="token punctuation">.</span>JSON<span class="token punctuation">,</span>
+          <span class="token comment">// Transform the response data to a String encoded with UTF8.</span>
+          <span class="token comment">// The default value is [ResponseType.JSON].</span>
+          responseType<span class="token punctuation">:</span> ResponseType<span class="token punctuation">.</span>plain<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      dio <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Dio</span><span class="token punctuation">(</span>option<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">//添加拦截器</span>
+      dio<span class="token punctuation">.</span>interceptors
+          <span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">InterceptorsWrapper</span><span class="token punctuation">(</span>onRequest<span class="token punctuation">:</span> <span class="token punctuation">(</span>RequestOptions options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> options<span class="token punctuation">;</span> <span class="token comment">//continue</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span> onResponse<span class="token punctuation">:</span> <span class="token punctuation">(</span>Response response<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;响应之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// solveServiceCode(response);</span>
+        <span class="token keyword">return</span> <span class="token function">solveServiceCode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// continue</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span> onError<span class="token punctuation">:</span> <span class="token punctuation">(</span>DioError e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;错误之前&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">formatExceptionError</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> dio<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/// 清空 dio 对象</span>
+  <span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    dio <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 拦截器-响应之前</span>
+  <span class="token keyword">static</span> <span class="token function">solveServiceCode</span><span class="token punctuation">(</span>Response response<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> result <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+    <span class="token keyword">var</span> data <span class="token operator">=</span> json<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">&quot;code&quot;</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token string">'000000'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      Tip<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">]</span> <span class="token operator">is</span> String <span class="token operator">?</span> data<span class="token punctuation">[</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">]</span> <span class="token punctuation">:</span> <span class="token string">'未知错误'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">print</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> data<span class="token punctuation">[</span><span class="token string">'data'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// 拦截器-错误之前-异常错误处理</span>
+  <span class="token keyword">static</span> <span class="token function">formatExceptionError</span><span class="token punctuation">(</span>DioError e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    String message <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>CONNECT_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// It occurs when url is opened timeout.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;连接超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;连接超时&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>SEND_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// It occurs when url is sent timeout.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>RECEIVE_TIMEOUT<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">//It occurs when receiving timeout</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;响应超时&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;响应超时&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>RESPONSE<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// When the server response, but with a incorrect status, such as 404, 503...</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;出现异常&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;出现异常&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>type <span class="token operator">==</span> DioErrorType<span class="token punctuation">.</span>CANCEL<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// When the request is cancelled, dio will throw a error with this type.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;请求取消&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;请求取消&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token comment">//DEFAULT Default error type, Some other Error. In this case, you can read the DioError.error if it is not null.</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;未知错误&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      message <span class="token operator">=</span> <span class="token string">&quot;未知错误&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    Tip<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div><div class="language-dart extra-class"><pre class="language-dart"><code><span class="token comment">// file: tip.dart</span>
+<span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'package:fluttertoast/fluttertoast.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Tip</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> <span class="token function">success</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Fluttertoast<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span>
+      msg<span class="token punctuation">:</span> message<span class="token punctuation">,</span>
+      backgroundColor<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>black54<span class="token punctuation">,</span>
+      toastLength<span class="token punctuation">:</span> Toast<span class="token punctuation">.</span>LENGTH_SHORT<span class="token punctuation">,</span>
+      gravity<span class="token punctuation">:</span> ToastGravity<span class="token punctuation">.</span>CENTER<span class="token punctuation">,</span>
+      timeInSecForIos<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">static</span> <span class="token function">fail</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Fluttertoast<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span>
+      msg<span class="token punctuation">:</span> message<span class="token punctuation">,</span>
+      backgroundColor<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>red<span class="token punctuation">[</span><span class="token number">400</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      toastLength<span class="token punctuation">:</span> Toast<span class="token punctuation">.</span>LENGTH_SHORT<span class="token punctuation">,</span>
+      gravity<span class="token punctuation">:</span> ToastGravity<span class="token punctuation">.</span>CENTER<span class="token punctuation">,</span>
+      timeInSecForIos<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div><div class="language-dart extra-class"><pre class="language-dart"><code><span class="token comment">// api/user.dart</span>
+<span class="token keyword">static</span> Future<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>User<span class="token operator">&gt;&gt;</span> <span class="token function">getUser</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">async</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> data <span class="token operator">=</span> <span class="token keyword">await</span> HttpUtils<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>
+      <span class="token string">'/userDataCode'</span><span class="token punctuation">,</span>
+      <span class="token comment">// '/userDataCodeMessage',</span>
+      method<span class="token punctuation">:</span> HttpUtils<span class="token punctuation">.</span>GET<span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// data != null &amp;&amp; </span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>data <span class="token operator">is</span> List<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 对data是list的才给处理，否则不处理</span>
+      <span class="token keyword">var</span> list <span class="token operator">=</span> data<span class="token punctuation">;</span>
+      List<span class="token operator">&lt;</span>User<span class="token operator">&gt;</span> userList <span class="token operator">=</span> <span class="token punctuation">(</span>list <span class="token operator">as</span> List<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> User<span class="token punctuation">.</span><span class="token function">fromJson</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> userList<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+</code></pre></div><h2 id="加持redux"><a href="#加持redux" class="header-anchor">#</a> 加持redux</h2> <p><a href="https://flutter-debugger.blankapp.org/zh_CN/" target="_blank" rel="noopener noreferrer">flutter-debugger<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>简介：一个用于调试 Flutter 应用的独立应用程序，基于 Flipper（可扩展的移动应用调试器）并提供更多功能。</p> <h2 id="从需要的角度谈fish-redux"><a href="#从需要的角度谈fish-redux" class="header-anchor">#</a> 从需要的角度谈fish-redux</h2> <div class="language- extra-class"><pre class="language-text"><code>
+为什么要fish-redux
+
+为什么 要分治
+
+state
+
+effect (action)
+
+reducer
+
+组件（使用插槽设计slot）、page、adapter（是类似的东西，都作为整合视图与逻辑业务）
+
+Dependent (connect + commponent)
+
+view
+
+
+
+</code></pre></div><h2 id="adapter-与组件类似"><a href="#adapter-与组件类似" class="header-anchor">#</a> adapter(与组件类似)</h2> <blockquote><p>Adapter
+我们在基础 Component 的概念外，额外增加了一种组件化的抽象 Adapter。它的目标是解决 Component 模型在 ListView 的场景下的 3 个问题</p></blockquote> <p>1）将一个&quot;Big-Cell&quot;放在 ListView 里，无法享受 ListView 代码的性能优化。</p> <p>2）Component 无法区分 appear|disappear 和 init|dispose 事件。</p> <p>3）Effect 的生命周期和 View 的耦合，在 ListView 的有些场景下不符合直观的预期。</p> <p>一个 Adapter 和 Component 几乎都是一致的，除了以下几点</p> <p>Component 生成一个 Widget，Adapter 生成一个 ListAdapter，ListAdapter 有能力生成一组 Widget。</p> <p>不具体生成 Widget，而是一个 ListAdapter，能非常大的提升页面帧率和流畅度。</p> <p>Effect-Lifecycle-Promote</p> <p>Component 的 Effect 是跟着 Widget 的生命周期走的，Adapter 的 Effect 是跟着上一级的 Widget 的生命周期走
+。
+Effect​ 提升，极大的解除了业务逻辑和视图生命的耦合，即使它的展示还未出现，的其他模块依然能通过 dispatch-api，调用它的能力。</p> <p>appear|disappear 的通知</p> <p>由于 Effect 生命周期的提升，我们就能更加精细的区分 init|dispose 和 appear|disappear。而这在 Component 的模型中是无法区分的。</p> <p>Reducer is long-lived, Effect is medium-lived, View is short-lived.</p> <p>Adapter 的三种实现
+DynamicFlowAdapter
+StaticFlowAdapter
+CustomAdapter</p> <p><img src="/look/assets/img/fish-redux-adapter.d19dd801.png" alt="avatar"></p> <h2 id="fluwx"><a href="#fluwx" class="header-anchor">#</a> fluwx</h2> <p><a href="https://github.com/OpenFlutter/fluwx/blob/master/README_CN.md" target="_blank" rel="noopener noreferrer">fluwx<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="dart-优化"><a href="#dart-优化" class="header-anchor">#</a> dart 优化</h2> <p><img src="/look/assets/img/dart-v1.2.3.d4a157c7.png" alt="avatar"> <img src="/look/assets/img/dart2.3-c.04ef7c17.png" alt="avatar"></p> <h2 id="idea优化"><a href="#idea优化" class="header-anchor">#</a> idea优化</h2> <p><img src="/look/assets/img/ui-guides.205c64fb.png" alt="avatar"></p> <h2 id="vscode-restful"><a href="#vscode-restful" class="header-anchor">#</a> vscode restful</h2> <p><img src="/look/assets/img/restful.63a81b9d.png" alt="avatar"></p> <h2 id="项目架构"><a href="#项目架构" class="header-anchor">#</a> 项目架构</h2> <div class="language- extra-class"><pre class="language-text"><code>assets
+	images
+		login
+		user
+	fonts
+lib
+	router
+		router
+		application
+		router_init
+		navigator
+	resource
+		resource
+		strings
+		colors
+		dimension	
+		styles
+	widget
+		chart
+	utils
+		date_util
+		log_util
+		image_util
+		toast_util
+		navigator_util
+		http_util
+		regular_util
+	entity
+		user
+		user.g
+	db
+    user -&gt;	select、delete、insert、update
+	pages
+		user
+			user_router
+		login
+			login_router
+	store/bloc(待定)
+
+</code></pre></div><div class="language-http extra-class"><pre class="language-http"><code># example.http
+<span class="token request-line"><span class="token property">GET</span> https://www.easy-mock.com/mock/5d131430724519274de77822/am/userDataCodeMessage HTTP/1.1</span>
+
+###
+
+<span class="token request-line"><span class="token property">GET</span> https://www.easy-mock.com/mock/5d131430724519274de77822/am/userDataCode HTTP/1.1</span>
+
+###
+
+<span class="token request-line"><span class="token property">GET</span> https://www.easy-mock.com/mock/5d131430724519274de77822/am/userData HTTP/1.1</span>
+
+###
+
+<span class="token request-line"><span class="token property">GET</span> https://www.easy-mock.com/mock/5d131430724519274de77822/am/user HTTP/1.1</span>
+
+###
+
+<span class="token request-line"><span class="token property">GET</span> https://www.easy-mock.com/mock/5d131430724519274de77822/am/user/list HTTP/1.1</span>
+
+###
+
+<span class="token request-line"><span class="token property">POST</span> https://example.com/comments HTTP/1.1</span>
+<span class="token header-name keyword">content-type:</span> application/json<span class="token application/json">
+
+<span class="token punctuation">{</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sample&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;time&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Wed, 21 Oct 2015 18:27:50 GMT&quot;</span>
+<span class="token punctuation">}</span>
+
+
+</span></code></pre></div><h2 id="flutter-typeahead-1-6-1-类似模糊查询组件"><a href="#flutter-typeahead-1-6-1-类似模糊查询组件" class="header-anchor">#</a> flutter_typeahead 1.6.1 类似模糊查询组件</h2> <p><a href="https://pub.dev/packages/flutter_typeahead" target="_blank" rel="noopener noreferrer">flutter_typeahead<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://juejin.im/post/5c41af466fb9a04a0e2d7d51" target="_blank" rel="noopener noreferrer">flutter 组件理解<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language-dart extra-class"><pre class="language-dart"><code> <span class="token function">ClipRRect</span><span class="token punctuation">(</span>
+            borderRadius<span class="token punctuation">:</span> BorderRadius<span class="token punctuation">.</span><span class="token function">circular</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            child<span class="token punctuation">:</span> FadeInImage<span class="token punctuation">.</span><span class="token function">assetNetwork</span><span class="token punctuation">(</span>
+              placeholder<span class="token punctuation">:</span> <span class="token string">&quot;assets/images/account/avatar.png&quot;</span><span class="token punctuation">,</span>
+              image<span class="token punctuation">:</span>
+                  <span class="token string">'https://pic2.zhimg.com/v-639b49f2f6578eabddc458b84eb3c6a1.jpg'</span><span class="token punctuation">,</span>
+              fit<span class="token punctuation">:</span> BoxFit<span class="token punctuation">.</span>cover<span class="token punctuation">,</span>
+              width<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+              height<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token function">CircleAvatar</span><span class="token punctuation">(</span>
+            <span class="token comment">//头像半径</span>
+            radius<span class="token punctuation">:</span> <span class="token number">60</span><span class="token punctuation">,</span>
+            <span class="token comment">//头像图片 -&gt; NetworkImage网络图片，AssetImage项目资源包图片, FileImage本地存储图片</span>
+            backgroundImage<span class="token punctuation">:</span> <span class="token function">NetworkImage</span><span class="token punctuation">(</span>
+              <span class="token string">'https://pic2.zhimg.com/v2-639b49f2f6578eabddc458b84eb3c6a1.jpg'</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token function">ClipOval</span><span class="token punctuation">(</span>
+            child<span class="token punctuation">:</span> Image<span class="token punctuation">.</span><span class="token function">network</span><span class="token punctuation">(</span>
+              <span class="token string">'https://pic2.zhimg.com/v2-639b49f2f6578eabddc458b84eb3c6a1.jpg'</span><span class="token punctuation">,</span>
+              width<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+              height<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+              fit<span class="token punctuation">:</span> BoxFit<span class="token punctuation">.</span>cover<span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token function">Container</span><span class="token punctuation">(</span>
+            width<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+            height<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+            decoration<span class="token punctuation">:</span> <span class="token function">BoxDecoration</span><span class="token punctuation">(</span>
+              shape<span class="token punctuation">:</span> BoxShape<span class="token punctuation">.</span>circle<span class="token punctuation">,</span>
+              image<span class="token punctuation">:</span> <span class="token function">DecorationImage</span><span class="token punctuation">(</span>
+                image<span class="token punctuation">:</span> <span class="token function">NetworkImage</span><span class="token punctuation">(</span>
+                  <span class="token string">'https://pic2.zhimg.com/v2-639b49f2f6578eabddc458b84eb3c6a1.jpg'</span><span class="token punctuation">,</span>
+                <span class="token punctuation">)</span><span class="token punctuation">,</span>
+                fit<span class="token punctuation">:</span> BoxFit<span class="token punctuation">.</span>cover<span class="token punctuation">,</span>
+              <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+
+
+
+
+
+
+           child<span class="token punctuation">:</span> <span class="token function">Column</span><span class="token punctuation">(</span>
+          children<span class="token punctuation">:</span> <span class="token operator">&lt;</span>Widget<span class="token operator">&gt;</span><span class="token punctuation">[</span>
+            Gaps<span class="token punctuation">.</span>vGap50<span class="token punctuation">,</span>
+            <span class="token function">ClipRRect</span><span class="token punctuation">(</span>
+              borderRadius<span class="token punctuation">:</span> BorderRadius<span class="token punctuation">.</span><span class="token function">circular</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              child<span class="token punctuation">:</span> FadeInImage<span class="token punctuation">.</span><span class="token function">assetNetwork</span><span class="token punctuation">(</span>
+                placeholder<span class="token punctuation">:</span> <span class="token string">&quot;assets/images/account/avatar.png&quot;</span><span class="token punctuation">,</span>
+                image<span class="token punctuation">:</span> <span class="token string">'https://avatar.csdn.net/B/5/2/3_web_longboss.jpg'</span><span class="token punctuation">,</span>
+                fit<span class="token punctuation">:</span> BoxFit<span class="token punctuation">.</span>cover<span class="token punctuation">,</span>
+                width<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+                height<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+              <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap10<span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap10<span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap10<span class="token punctuation">,</span>
+            <span class="token function">MyTextField</span><span class="token punctuation">(</span>
+              controller<span class="token punctuation">:</span> state<span class="token punctuation">.</span>mobileEditController<span class="token punctuation">,</span>
+              focusNode<span class="token punctuation">:</span> state<span class="token punctuation">.</span>focusNodeMobile<span class="token punctuation">,</span>
+              maxLength<span class="token punctuation">:</span> <span class="token number">11</span><span class="token punctuation">,</span>
+              keyboardType<span class="token punctuation">:</span> TextInputType<span class="token punctuation">.</span>phone<span class="token punctuation">,</span>
+              hintText<span class="token punctuation">:</span> <span class="token string">&quot;请输入账号&quot;</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap10<span class="token punctuation">,</span>
+            <span class="token function">MyTextField</span><span class="token punctuation">(</span>
+              controller<span class="token punctuation">:</span> state<span class="token punctuation">.</span>passwordEditController<span class="token punctuation">,</span>
+              focusNode<span class="token punctuation">:</span> state<span class="token punctuation">.</span>focusNodePassword<span class="token punctuation">,</span>
+              maxLength<span class="token punctuation">:</span> <span class="token number">11</span><span class="token punctuation">,</span>
+              isInputPwd<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              hintText<span class="token punctuation">:</span> <span class="token string">&quot;请输入密码&quot;</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap10<span class="token punctuation">,</span>
+            Gaps<span class="token punctuation">.</span>vGap15<span class="token punctuation">,</span>
+            <span class="token function">MyButton</span><span class="token punctuation">(</span>
+              onPressed<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+              text<span class="token punctuation">:</span> <span class="token string">&quot;确认&quot;</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token comment">// Gaps.vGap10,</span>
+            <span class="token comment">// Gaps.vGap15,</span>
+            <span class="token comment">// MyButton(</span>
+            <span class="token comment">//   onPressed: () =&gt; {</span>
+            <span class="token comment">//     dispatch(LoginActionCreator.onMiniProcess())</span>
+            <span class="token comment">//   },</span>
+            <span class="token comment">//   text: &quot;test 小程序&quot;,</span>
+            <span class="token comment">// )</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+</code></pre></div><h2 id="majascan"><a href="#majascan" class="header-anchor">#</a> <a href="https://pub.dev/packages/majascan" target="_blank" rel="noopener noreferrer">majascan<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <p><img src="/look/assets/img/scan-style-0.d1e14a73.gif" alt="avatar"></p> <h2 id="qr-code-scanner"><a href="#qr-code-scanner" class="header-anchor">#</a> <a href="https://github.com/juliuscanute/qr_code_scanner" target="_blank" rel="noopener noreferrer">qr_code_scanner<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <p>高度可配置 使用swift，亲测可用</p> <h2 id="flutter-qr-reader"><a href="#flutter-qr-reader" class="header-anchor">#</a> <a href="https://pub.dev/packages/flutter_qr_reader" target="_blank" rel="noopener noreferrer">flutter_qr_reader<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <p>样式非常棒</p> <p><img src="/look/assets/img/scan-style-1.bf5d0446.jpg" alt="avatar"></p> <h2 id="雨滴特效"><a href="#雨滴特效" class="header-anchor">#</a> <a href="https://cloud.tencent.com/developer/article/1374663" target="_blank" rel="noopener noreferrer">雨滴特效<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <p><a href="https://pub.dev/packages/vibration" target="_blank" rel="noopener noreferrer">震动<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://pub.dev/packages/camera" target="_blank" rel="noopener noreferrer">相机<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://pub.dev/packages/image_picker" target="_blank" rel="noopener noreferrer">选择照片<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://pub.dev/packages/flutter_image_compress" target="_blank" rel="noopener noreferrer">压缩照片<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="项目参考-fish-redux"><a href="#项目参考-fish-redux" class="header-anchor">#</a> 项目参考 fish-redux</h2> <p><a href="https://github.com/o1298098/Flutter-Movie" target="_blank" rel="noopener noreferrer">flutterMovie<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id><a href="#" class="header-anchor">#</a></h3> <div class="language- extra-class"><pre class="language-text"><code>行|杭州|某些端  11:41:52
+我有个问题 请求返回的数据不能直接用Map吗 为什么都转化成实体模型，再使用呢？
+行|杭州|某些端  11:42:12
+我看好多代码都转了
+行|杭州|某些端  11:42:22
+有疑问
+憨憨斯基深圳  11:43:09
+封装好的框架基本是map，只不过类型不确定，需要转
+低调 | 帝都 | 安卓 | 面粉  11:43:44
+转实体 你使用的时候可以直接 .属性 .属性
+低调 | 帝都 | 安卓 | 面粉  11:43:56
+不封装 你就拿脑子记
+行|杭州|某些端  11:44:07
+有接口文档
+行|杭州|某些端  11:44:25
+以为我是前端 所以我才会有这个疑问
+低调 | 帝都 | 安卓 | 面粉  11:44:27
+你开心就好
+行|杭州|某些端  11:44:51
+不是 我就是学习下 向各位大佬请教下
+憨憨斯基深圳  11:45:09
+难怪喜欢map键去取
+行|杭州|某些端  11:45:19
+嘿嘿
+憨憨斯基深圳  11:45:42
+类型坑不死你
+6个6|上海|保安  11:47:34
+还有一个原因。就是 你多一层转化层。以后 后台改返回  你在modle里面改就行了 不用去各个界面修改
+低调 | 帝都 | 安卓 | 面粉  11:48:04
+封装的好处谁用谁知道
+ayo|苏州|前端  11:48:47
+@Alex 面粉 前端 大佬 [图片] 该怎么设置呀
+6个6|上海|保安  11:49:54
+任何第三方框架。你都要最少封一次。 因为以后 如果那个插件不能用了。不满足了。要换。也是如此
+6个6|上海|保安  11:49:58
+封装的好处谁用谁知道
+
+
+
+</code></pre></div><h2 id="percent-indicator-2-1-1-1"><a href="#percent-indicator-2-1-1-1" class="header-anchor">#</a> <a href="https://pub.dev/packages/percent_indicator" target="_blank" rel="noopener noreferrer">percent_indicator 2.1.1+1<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <p><img src="/look/assets/img/percent_indicator.344284a3.png" alt="avatar"> <img src="/look/assets/img/percent_indicator1.ae7603db.png" alt="avatar"></p> <h2 id="flutter-image-compress"><a href="#flutter-image-compress" class="header-anchor">#</a> <a href="https://pub.dev/packages/flutter_image_compress" target="_blank" rel="noopener noreferrer">flutter_image_compress<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="badges"><a href="#badges" class="header-anchor">#</a> <a href="https://pub.dev/packages/badges" target="_blank" rel="noopener noreferrer">badges<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="flutter-cupertino-date-picker"><a href="#flutter-cupertino-date-picker" class="header-anchor">#</a> <a href="https://pub.dev/packages/flutter_cupertino_date_picker" target="_blank" rel="noopener noreferrer">flutter_cupertino_date_picker<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="shared-preferences"><a href="#shared-preferences" class="header-anchor">#</a> <a href="https://pub.dev/packages/shared_preferences" target="_blank" rel="noopener noreferrer">shared_preferences<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="flutter-speed-dial"><a href="#flutter-speed-dial" class="header-anchor">#</a> <a href="https://pub.dev/packages/flutter_speed_dial" target="_blank" rel="noopener noreferrer">flutter_speed_dial<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="oktoast"><a href="#oktoast" class="header-anchor">#</a> <a href="https://pub.dev/packages/oktoast" target="_blank" rel="noopener noreferrer">oktoast<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="table-calendar"><a href="#table-calendar" class="header-anchor">#</a> <a href="https://pub.dev/packages/table_calendar" target="_blank" rel="noopener noreferrer">table_calendar<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="permission-handler"><a href="#permission-handler" class="header-anchor">#</a> <a href="https://pub.dev/packages/permission_handler" target="_blank" rel="noopener noreferrer">permission_handler<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="cached-network-image"><a href="#cached-network-image" class="header-anchor">#</a> <a href="https://pub.dev/packages/cached_network_image" target="_blank" rel="noopener noreferrer">cached_network_image<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="image-picker"><a href="#image-picker" class="header-anchor">#</a> <a href="https://pub.dev/packages/image_picker" target="_blank" rel="noopener noreferrer">image_picker<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h2> <h2 id="i18n"><a href="#i18n" class="header-anchor">#</a> i18n</h2> <p><a href="https://blog.csdn.net/ocean20/article/details/86761558" target="_blank" rel="noopener noreferrer">i18n<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language- extra-class"><pre class="language-text"><code>1.首先需要安装Flutter i18n插件，AS中安装即可
+
+2.创建Flutter工程，在res-&gt;values下会自动创建一个string_en.arb的文件，这就是多语言的资源文件。可以右键新建arb文件，根据向导即可添加不同语言。
+arb文件内容就是json格式。来个简单的例子：
+
+{
+  &quot;app_title&quot;: &quot;app_title1&quot;,
+  &quot;main_title&quot;: &quot;My Main Title&quot;
+}
+
+3.在lib-&gt;generated目录中会自动根据arb文件生成一个i18n.dart文件，不用编辑该文件，其实你编辑了也没用，修改后马上又会自动生成。
+编辑arb文件后会马上重新生成i18n.dart文件。
+
+4.添加依赖库
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+5.在main.dart中导入
+
+import '../generated/i18n.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+在main.dart文件添加相应内容
+@override
+Widget build(BuildContext context) {
+return MaterialApp(
+
+localizationsDelegates: [
+  S.delegate,
+  GlobalMaterialLocalizations.delegate,
+  GlobalWidgetsLocalizations.delegate
+],
+supportedLocales: S.delegate.supportedLocales,
+如果需要强制使用某种语言可以添加如下代码
+//localeResolutionCallback:
+//S.delegate.resolution(fallback: Locale(“zh”, “”)),
+
+title: ‘Flutter Demo’,
+theme: ThemeData(
+7.如何使用：S.of(context).key即可
+Text(
+  S.of(context).app_title,
+    style: TextStyle(
+    color: Colors.blue,
+    fontSize: 30,
+  ),
+)
+
+遇到的问题
+升级AS3.3后，i18n的插件似乎不起作用了。无法自动生成i18n.dart文件。报错内容如下：
+
+
+
+
+
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/look/mobile/flutter/source.html" class="prev">
+          源码
+        </a></span> <!----></p></div> </div> <!----></div></div>
+    <script src="/look/assets/js/app.b2ccb0bc.js" defer></script><script src="/look/assets/js/2.57f770e0.js" defer></script>
+  </body>
+</html>
